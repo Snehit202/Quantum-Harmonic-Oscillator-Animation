@@ -4,7 +4,7 @@ from matplotlib.animation import FuncAnimation
 from matplotlib import animation
 
 def Vpot(x):        ###defining the potential(1/2 k X^2)
-            return 0.5*x**4 - 0.25*x**2
+            return x**2
 a = -25. ###initial value of x
 b = 25.  ### final value of x
 N = 1000     ### no. of points b/w initial and final points
